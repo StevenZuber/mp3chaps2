@@ -1,7 +1,5 @@
 # mp3chaps2
 
-[![Tests](https://github.com/StevenZuber/mp3chaps2/actions/workflows/tests.yml/badge.svg)](https://github.com/StevenZuber/mp3chaps2/actions/workflows/tests.yml)
-
 ---
 
 Source code available [here](https://github.com/StevenZuber/mp3chaps2.git)
