@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "mp3chaps2"
-version = "1.0.4"
+version = "1.0.5"
 description = "A tool for managing MP3 chapter markers, modified from mp3chaps. The original version can be found here: https://github.com/dskrad/mp3chaps"
 readme = "README.md"
 requires-python = ">=3.7"
