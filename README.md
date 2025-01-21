@@ -68,7 +68,7 @@ mp3chaps2 -r episode_42.mp3
 If you want to modify this project locally, you can clone the repository and install the dependencies.
 
 ```bash
-git clone https://github.com/yourusername/mp3chaps2.git
+git clone https://github.com/StevenZuber/mp3chaps2.git
 cd mp3chaps2
 pip install -e .
 ```
