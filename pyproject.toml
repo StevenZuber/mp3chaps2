@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mp3chaps2"
+version = "1.0.0"
+description = "A tool for managing MP3 chapter markers, modified from mp3chaps. The original version can be found here: https://github.com/dskrad/mp3chaps"
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+keywords = ["mp3", "chapters", "podcast", "audio", "metadata"]
+authors = [
+    { name = "Steven Zuber", email = "stevenjzuber@gmail.com" },
+]
+dependencies = [
+    "eyeD3>=0.9.7",
+    "docopt>=0.6.2",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Utilities"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.4",
+    "build>=1.2.2.post1",
+    "twine>=6.1.0",
+]
+
+[project.scripts]
+mp3chaps2 = "mp3chaps2.mp3chaps:main"

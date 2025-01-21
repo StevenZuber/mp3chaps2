@@ -1,0 +1,5 @@
+00:00:00.000 Welcome to the Show
+01:23:45.678 Deep Dive into Complex Topics
+02:15:30.500 Q&A Session with Special Guest
+03:45:15.250 Behind the Scenes Stories
+04:00:00.000 Wrap Up and Credits
