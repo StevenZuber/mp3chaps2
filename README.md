@@ -2,6 +2,8 @@
 
 ---
 
+Source code available [here](https://github.com/StevenZuber/mp3chaps2.git)
+
 A robust command-line utility for managing chapter markers in MP3 files. This is an enhanced version of the original [mp3chaps](https://github.com/dskrad/mp3chaps) project, with improved error handling and reliability.
 
 This utilizes the excellent [eyeD3](https://github.com/nicfit/eyeD3) tagging module to read and write chapter frames and title subframes.
